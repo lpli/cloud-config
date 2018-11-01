@@ -13,12 +13,12 @@ spring:
     remote: false        #cachecloud 获取
     host: 127.0.0.1
     port: 6379
-    password:
+    password: admin
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: pig
-    password: lengleng
+    username: admin
+    password: QAZxsw1234
   http:
     multipart:
       max-file-size: 1000MB
